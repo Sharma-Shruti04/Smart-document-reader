@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Smart Document Intelligence Platform (DocIntel AI)
 
 An enterprise-ready, AI-powered platform for uploading, processing, OCR-transcribing, index-storing, semantically searching, and conversing with documents. Powered by FastAPI, React, SQLite, ChromaDB, Sentence Transformers, and Google Gemini.
@@ -157,3 +158,6 @@ For production deployments:
 2. **Reverse Proxy / SSL**: Bind the containers behind a Nginx reverse proxy or Cloudflare tunnel configured with SSL/TLS.
 3. **CORS Restrictions**: Modify `backend/app/main.py` CORS setup from `allow_origins=["*"]` to strict target domains.
 4. **Volume Backups**: Regularly back up `sql_app.db` and the `chroma_db/` directory.
+=======
+# Smart-document-reader
+>>>>>>> 789f6227f2c026e90ff6d78fc62fb17a6427f029
